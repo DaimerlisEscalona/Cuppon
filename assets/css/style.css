@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400');
+
+.color-fondo{
+    background-color: aquamarine !important;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.dim-img{
+    width: 40vw;
+    height: 40vw;
+}
+
+.desc-produ{
+    font-family: 'Roboto Light';
+}
+
+.color-oferta{
+    color: cornflowerblue ;
+}
+.color-form{
+    background-color: aliceblue ! important;
+}
+
+
+@media ( max-width: 990px) and (min-height: 380px) {
+    .cont_form{
+        width: 40%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+}
